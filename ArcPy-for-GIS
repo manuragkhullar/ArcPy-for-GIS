@@ -1,0 +1,26 @@
+import arcpy
+
+from arcpy.sa import Raster, Int, Float, CreateConstantRaster
+
+arcpy.CheckOutExtension('spatial')
+
+CreateConstantRaster_sa  C:/datase/final_1 43 1 "0.000000 0.000000 220.000000 220.000000)
+
+re = Int(CreateConstantRaster(500))
+ni = Int(#re = Raster(r'path\to\r.tif')
+
+#Calculating index
+numr = arcpy.sa.Float(ni-re)
+denr = arcpy.sa.Foat(ni+red)
+index = (numr) / (denr)
+
+print ndvi.pixelType, ndvi.maximum, ndvi.minimum
+
+index = Float((ni - re)) / (ni + re)
+
+#Final 
+
+print index.pixelType, index.maximum, index.minimum
+
+ arcpy.CheckInExtension("Spatial")
+
